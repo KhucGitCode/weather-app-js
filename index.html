@@ -1,32 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="weather-wrapper">
-    <div class="container">
-        <input type="text" id="inputCity" placeholder="Enter city .."/>
+      <div class="container">
+        <input type="text" id="inputCity" placeholder="Enter city..." />
         <button id="searchBtn">Search</button>
-    </div>
-    <div class="resultContainer">
+      </div>
 
+      <div class="resultContainer"></div>
     </div>
-    </div>
+
+    <!-- API config file-->
+    <script src="config.js"></script>
+
+    <!-- Main JS file -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
-<!-- https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={85ad499fbc28f641e385c5dc57b945b5} 
- 
-1️⃣ Weather icon
-2️⃣ Enter key support
-3️⃣ Better error handling
-4️⃣ Small UI polish
-5️⃣ README file
-6️⃣ GitHub push
-                -->
