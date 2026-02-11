@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(9, 27, 44);
+    display: flex;
+    justify-content: center;
+    
+}
+#searchBtn{
+    background-color: rgb(54, 196, 15);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+#inputCity{
+    padding: 8px;
+    width:  150px;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(22, 95, 119);
+}
+.weather-wrapper{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.resultContainer{
+    color: white;
+    text-align: center;
+  margin-top: 20px;
+}
+.resultContainer img {
+  width: 100px;
+}
